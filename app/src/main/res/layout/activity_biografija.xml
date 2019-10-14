@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poz"
+    android:padding="10dp"
+    tools:context=".biografija">
+
+
+
+        <ImageView
+            android:id="@+id/space"
+            android:layout_width="457dp"
+            android:layout_height="260dp"
+            android:layout_x="-15dp"
+            android:layout_y="-10dp"
+            app:srcCompat="@drawable/probanovi"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="-1dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_x="-4dp"
+            android:layout_y="106dp"
+            android:background="@drawable/radius_txt"
+            android:gravity="center_horizontal"
+            android:text="Nešković Stefan"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:fontFamily="serif-monospace"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="107dp"
+        android:layout_height="128dp"
+        android:layout_x="296dp"
+        android:layout_y="79dp"
+        app:srcCompat="@drawable/biografija"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:layout_x="0dp"
+            android:layout_y="285dp"
+            android:background="@color/svetla"
+            android:padding="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="133dp">
+
+            <AbsoluteLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="84dp"
+                    android:layout_height="91dp"
+                    android:layout_x="35dp"
+                    android:layout_y="341dp"
+                    app:srcCompat="@drawable/os"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="84dp"
+                    android:layout_height="91dp"
+                    android:layout_x="32dp"
+                    android:layout_y="607dp"
+                    app:srcCompat="@drawable/fon"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="204dp"
+                    android:layout_height="91dp"
+                    android:layout_x="142dp"
+                    android:layout_y="338dp"
+                    android:background="@drawable/radius_txt"
+                    android:gravity="clip_horizontal"
+                    android:padding="5dp"
+                    android:text='2004. Upisuje OŠ ,,Petar Vragolić"'
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="serif-monospace"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="485dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="204dp"
+                    android:layout_height="91dp"
+                    android:layout_x="144dp"
+                    android:layout_y="470dp"
+                    android:background="@drawable/radius_txt"
+                    android:gravity="clip_horizontal"
+                    android:padding="5dp"
+                    android:text='2012. Upisuje SC ,,Vuk Karadžić"'
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="serif-monospace"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="485dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="335dp"
+                    android:layout_height="172dp"
+                    android:layout_x="11dp"
+                    android:layout_y="136dp"
+                    android:background="@drawable/radius_txt"
+                    android:gravity="clip_horizontal"
+                    android:padding="5dp"
+                    android:text="Stefan Nešković je rođen 24.02.1998. godine u Ljuboviji, gde je završio osnovnu školu „Petar Vragolić“ i gimnaziju „Vuk Karadžić“ kao odličan đak."
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="serif-monospace"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="485dp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="116dp"
+                    android:layout_height="132dp"
+                    android:layout_x="121dp"
+                    android:layout_y="3dp"
+                    app:srcCompat="@drawable/education"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="84dp"
+                    android:layout_height="91dp"
+                    android:layout_x="35dp"
+                    android:layout_y="475dp"
+                    app:srcCompat="@drawable/sc"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="213dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="204dp"
+                    android:layout_height="91dp"
+                    android:layout_x="141dp"
+                    android:layout_y="603dp"
+                    android:background="@drawable/radius_txt"
+                    android:gravity="clip_horizontal"
+                    android:padding="5dp"
+                    android:text="2016. Upisuje Fakultet organizacionih nauka"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="serif-monospace"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="485dp" />
+
+            </AbsoluteLayout>
+        </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_x="161dp"
+        android:layout_y="240dp"
+        app:srcCompat="@drawable/krug"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_x="117dp"
+        android:layout_y="240dp"
+        app:srcCompat="@drawable/crni"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="31dp"
+            android:layout_height="29dp"
+            android:layout_x="249dp"
+            android:layout_y="240dp"
+            app:srcCompat="@drawable/krug"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="31dp"
+            android:layout_height="29dp"
+            android:layout_x="205dp"
+            android:layout_y="240dp"
+            app:srcCompat="@drawable/krug"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="273dp"
+        android:background="@drawable/radius_txt"
+        android:gravity="center_horizontal"
+        android:text="OBRAZOVANjE"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="serif-monospace"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+
+</AbsoluteLayout>
